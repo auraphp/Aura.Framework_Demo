@@ -1,0 +1,5 @@
+<?php
+require dirname(dirname(__DIR__)) . '/Aura.Framework/src/Aura/Framework/Bootstrap.php';
+$bootstrap = new \Aura\Framework\Bootstrap;
+$return = $bootstrap->execCli('Aura\Demo\Cli\Hello\Command');
+exit($return);
