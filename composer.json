@@ -1,9 +1,9 @@
 {
-    "name": "aura/di",
+    "name": "aura/demo",
     "type": "aura-package",
-    "description": "The Aura DI package provides a dependency injection container system with native support for constructor- and setter-based injection, lazy-loading of services, and inheritable configuration of setters and constructor params.",
-    "keywords": [ "container", "dependency injection", "di", "di container", "dependency injection container" ],
-    "homepage": "http://auraphp.github.com/Aura.Di",
+    "description": "The Aura Demo package provides a 'Hello World' demos for Aura project. You should need the aura system repo to make use of this",
+    "keywords": [ "demo", "auraphp", "sample project" ],
+    "homepage": "http://auraphp.github.com/Aura.Demo",
     "version": "1.0.0-dev",
     "license": "BSD-2-Clause",
     "authors": [
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Aura\\Di": "src/"
+            "Aura\\Demo": "src/"
         }
     }
 }
