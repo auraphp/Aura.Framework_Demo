@@ -9,7 +9,7 @@
     "authors": [
         {
             "name": "Aura Contributors",
-            "homepage": "https://github.com/auraphp/Aura.Di/contributors"
+            "homepage": "https://github.com/auraphp/Aura.Demo/contributors"
         }
     ],
     "require": {
