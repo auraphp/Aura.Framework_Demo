@@ -1,21 +1,30 @@
 {
     "name": "aura/demo",
     "type": "aura-package",
-    "description": "The Aura Demo package provides a 'Hello World' demos for Aura project. You should need the aura system repo to make use of this",
-    "keywords": [ "demo", "auraphp", "sample project" ],
+    "description": "A \"hello world\" demo for the Aura framework and system.",
+    "keywords": [
+        "demo",
+        "hello world"
+    ],
     "homepage": "http://auraphp.github.com/Aura.Demo",
-    "version": "1.0.0-dev",
+    "version": "1.0.0-beta1",
+    "time": "2012-12-13",
     "license": "BSD-2-Clause",
     "authors": [
         {
-            "name": "Aura Contributors",
-            "homepage": "https://github.com/auraphp/Aura.Di/contributors"
+            "name": "Aura.Demo Contributors",
+            "homepage": "https://github.com/auraphp/Aura.Demo/contributors"
+        },
+        {
+            "name": "Paul M. Jones",
+            "email": "pmjones88@gmail.com",
+            "homepage": "http://paul-m-jones.com"
         }
     ],
     "require": {
         "php": ">=5.4.0",
-        "aura/installer-default": "1.0.0",
-        "aura/framework": "dev-develop"
+        "installer-default": ">=1.0.0",
+        "aura/framework": ">=1.0.0beta4"
     },
     "autoload": {
         "psr-0": {
