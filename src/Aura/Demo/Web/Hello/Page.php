@@ -23,7 +23,7 @@ class Page extends AbstractPage
 {
     /**
      * 
-     * Sets the inner view to "world" and does nothing else.
+     * Sets the inner view to "index" and does nothing else.
      * 
      * @return void
      * 
@@ -31,5 +31,17 @@ class Page extends AbstractPage
     public function actionIndex()
     {
         $this->view = 'index';
+    }
+    
+    /**
+     * 
+     * Sets the inner view to "logo" and does nothing else.
+     * 
+     * @return void
+     * 
+     */
+    public function actionLogo()
+    {
+        $this->view = 'logo';
     }
 }
