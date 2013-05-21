@@ -1,1 +1,1 @@
-Initial release.
+- [ADD] Add '/logo' controller action for demoing the assetHref() helper
