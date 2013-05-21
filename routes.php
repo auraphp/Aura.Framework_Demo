@@ -16,5 +16,12 @@ return [
                 'action' => 'index',
             ],
         ],
+        'logo' => [
+            'path' => '/logo',
+            'values' => [
+                'controller' => 'aura.demo.hello',
+                'action' => 'logo',
+            ],
+        ],
     ],
 ];
