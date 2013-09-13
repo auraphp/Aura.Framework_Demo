@@ -24,7 +24,7 @@ return [
             ],
         ],
         'format' => [
-            'path' => '/accept',
+            'path' => '/accept{:format:(\..+)?}',
             'values' => [
                 'controller' => 'aura.demo.hello',
                 'action' => 'accept'
