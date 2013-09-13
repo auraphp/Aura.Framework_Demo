@@ -23,5 +23,12 @@ return [
                 'action' => 'logo',
             ],
         ],
+        'format' => [
+            'path' => '/accept',
+            'values' => [
+                'controller' => 'aura.demo.hello',
+                'action' => 'accept'
+            ],
+        ],
     ],
 ];

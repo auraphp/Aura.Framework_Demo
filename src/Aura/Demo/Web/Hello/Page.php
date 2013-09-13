@@ -44,4 +44,23 @@ class Page extends AbstractPage
     {
         $this->view = 'logo';
     }
+    
+    /**
+     * 
+     * Shows how to deliver different content-types on a per-format basis.
+     * 
+     * @return void
+     * 
+     */
+    public function actionAccept()
+    {
+        $this->view = [
+            '.json' => function () {
+                return '{ value : "json" }';
+            },
+            '.html' => function () {
+                return '<dl><dt>value</dt><dd>html</dd></dl>';
+            },
+        ];
+    }
 }
