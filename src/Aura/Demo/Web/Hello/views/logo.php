@@ -1,1 +1,1 @@
-<?php echo $this->image($this->assetHref('Aura.Demo/images/logo.png')); ?>
+<?php echo $this->image($this->assetHref('Aura.Framework_Demo/images/logo.png')); ?>

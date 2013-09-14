@@ -1,14 +1,14 @@
 {
-    "name": "aura/demo",
+    "name": "aura/framework-demo",
     "type": "aura-package",
-    "description": "The Aura Demo package provides a 'Hello World' demos for Aura project. You should need the aura system repo to make use of this.",
+    "description": "The Aura Framework_Demo package provides a 'Hello World' demos for Aura project. You should need the aura system repo to make use of this.",
     "keywords": [ "demo", "auraphp", "sample project" ],
-    "homepage": "http://auraphp.github.com/Aura.Demo",
+    "homepage": "http://auraphp.github.com/Aura.Framework_Demo",
     "license": "BSD-2-Clause",
     "authors": [
         {
             "name": "Aura Contributors",
-            "homepage": "https://github.com/auraphp/Aura.Demo/contributors"
+            "homepage": "https://github.com/auraphp/Aura.Framework_Demo/contributors"
         }
     ],
     "require": {
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Aura\\Demo": "src/"
+            "Aura\\Framework_Demo": "src/"
         }
     }
 }
