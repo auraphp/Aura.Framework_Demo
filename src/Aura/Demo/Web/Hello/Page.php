@@ -55,11 +55,11 @@ class Page extends AbstractPage
     public function actionAccept()
     {
         $this->view = [
-            '.json' => function () {
-                return '{ value : "json" }';
-            },
             '.html' => function () {
                 return '<dl><dt>value</dt><dd>html</dd></dl>';
+            },
+            '.json' => function () {
+                return '{ value : "json" }';
             },
         ];
     }
