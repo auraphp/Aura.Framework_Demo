@@ -1,7 +1,7 @@
 {
     "name": "aura/framework-demo",
     "type": "aura-package",
-    "description": "The Aura Framework_Demo package provides a 'Hello World' demos for Aura project. You should need the aura system repo to make use of this.",
+    "description": "The Aura Framework_Demo package provides sample 'Hello World' web and CLI demos for the Aura framework.",
     "keywords": [ "demo", "auraphp", "sample project" ],
     "homepage": "http://auraphp.github.com/Aura.Framework_Demo",
     "license": "BSD-2-Clause",
