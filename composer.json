@@ -1,7 +1,7 @@
 {
     "name": "aura/demo",
     "type": "aura-package",
-    "description": "The Aura Demo package provides a 'Hello World' demos for Aura project. You should need the aura system repo to make use of this",
+    "description": "The Aura Demo package provides a 'Hello World' demos for Aura project. You should need the aura system repo to make use of this.",
     "keywords": [ "demo", "auraphp", "sample project" ],
     "homepage": "http://auraphp.github.com/Aura.Demo",
     "license": "BSD-2-Clause",
@@ -14,7 +14,7 @@
     "require": {
         "php": ">=5.4.0",
         "aura/installer-default": "1.0.0",
-        "aura/framework": "dev-develop"
+        "aura/framework": "*",
     },
     "autoload": {
         "psr-0": {
