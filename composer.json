@@ -1,19 +1,19 @@
 {
-    "name": "aura/demo",
-    "version": "1.0.0-beta2",
+    "name": "aura/framework_demo",
+    "version": "1.0.0",
     "type": "aura-package",
     "description": "A \"hello world\" demo for the Aura framework and system.",
     "keywords": [
         "demo",
         "hello world"
     ],
-    "homepage": "http://auraphp.github.com/Aura.Demo",
-    "time": "2013-05-20",
+    "homepage": "http://auraphp.com/Aura.Framework_Demo",
+    "time": "2013-09-18",
     "license": "BSD-2-Clause",
     "authors": [
         {
-            "name": "Aura.Demo Contributors",
-            "homepage": "https://github.com/auraphp/Aura.Demo/contributors"
+            "name": "Aura.Framework_Demo Contributors",
+            "homepage": "https://github.com/auraphp/Aura.Framework_Demo/contributors"
         },
         {
             "name": "Paul M. Jones",
@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Aura\\Demo": "src/"
+            "Aura\\Framework_Demo": "src/"
         }
     }
 }
