@@ -1,5 +1,5 @@
 <?php
-namespace Aura\Demo\Cli\HelloWorld;
+namespace Aura\Framework_Demo\Cli\HelloWorld;
 
 use Aura\Framework\Cli\AbstractCommandTest;
 
@@ -9,7 +9,7 @@ use Aura\Framework\Cli\AbstractCommandTest;
  */
 class CommandTest extends AbstractCommandTest
 {
-    protected $command_class = '\Aura\Demo\Cli\Hello\Command';
+    protected $command_class = '\Aura\Framework_Demo\Cli\Hello\Command';
     
     public function test()
     {

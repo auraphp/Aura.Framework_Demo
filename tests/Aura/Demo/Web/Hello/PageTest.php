@@ -5,7 +5,7 @@ use Aura\Framework\Web\Controller\AbstractPageTest;
 
 class PageTest extends AbstractPageTest
 {
-    protected $page_class = 'Aura\Demo\Web\Hello\Page';
+    protected $page_class = 'Aura\Framework_Demo\Web\Hello\Page';
     
     public function testActionIndex()
     {
