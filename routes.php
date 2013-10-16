@@ -23,7 +23,7 @@ return [
                 'action' => 'logo',
             ],
         ],
-        'format' => [
+        'accept' => [
             'path' => '/accept{:format:(\..+)?}',
             'values' => [
                 'controller' => 'aura.demo.hello',
