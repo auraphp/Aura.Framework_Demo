@@ -1,20 +1,28 @@
 {
-    "name": "aura/framework-demo",
+    "name": "aura/framework_demo",
     "type": "aura-package",
-    "description": "The Aura Framework_Demo package provides sample 'Hello World' web and CLI demos for the Aura framework.",
-    "keywords": [ "demo", "auraphp", "sample project" ],
-    "homepage": "http://auraphp.github.com/Aura.Framework_Demo",
+    "description": "A \"hello world\" demo for the Aura framework and system.",
+    "keywords": [
+        "demo",
+        "hello world"
+    ],
+    "homepage": "http://auraphp.com/Aura.Framework_Demo",
     "license": "BSD-2-Clause",
     "authors": [
         {
-            "name": "Aura Contributors",
+            "name": "Aura.Framework_Demo Contributors",
             "homepage": "https://github.com/auraphp/Aura.Framework_Demo/contributors"
+        },
+        {
+            "name": "Paul M. Jones",
+            "email": "pmjones88@gmail.com",
+            "homepage": "http://paul-m-jones.com"
         }
     ],
     "require": {
         "php": ">=5.4.0",
-        "aura/installer-default": "1.0.0",
-        "aura/framework": "*"
+        "aura/installer-default": "~1.0",
+        "aura/framework": "~1.0"
     },
     "autoload": {
         "psr-0": {
@@ -23,5 +31,7 @@
     },
     "replace": {
         "aura/demo": "self.version"
-    }
+    },
+    "version": "1.0.1",
+    "time": "2015-03-24"
 }
