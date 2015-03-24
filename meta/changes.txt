@@ -1,5 +1,3 @@
-- [BRK] Rename from "Demo" to "Framework_Demo" to indicate it's a framework
-  package
-
-- [ADD] Route '/accept', and acceptAction(), to demonstrate multiple formats
-  from Accept headers and .format extensions
+- CFG: Rename 'format' route to 'accept'
+- CFG: Use DI params for router, instead of $router instance
+- CFG: Constrain composer to 1.x versions
