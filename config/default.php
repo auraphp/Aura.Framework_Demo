@@ -7,7 +7,7 @@ $loader->add('Aura\Framework_Demo\\', dirname(__DIR__) . DIRECTORY_SEPARATOR . '
 /**
  * Router
  */
-$router->attach('/', $di->lazyRequire("$system/package/Aura.Framework_Demo/routes.php"));
+$di->params['Aura\Router\Map']['attach']['/'] = $di->lazyRequire("$system/package/Aura.Framework_Demo/routes.php");
 
 /**
  * Aura\Framework\Cli\Factory
