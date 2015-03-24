@@ -1,6 +1,5 @@
 {
     "name": "aura/framework_demo",
-    "version": "1.0.0",
     "type": "aura-package",
     "description": "A \"hello world\" demo for the Aura framework and system.",
     "keywords": [
@@ -8,7 +7,6 @@
         "hello world"
     ],
     "homepage": "http://auraphp.com/Aura.Framework_Demo",
-    "time": "2013-09-18",
     "license": "BSD-2-Clause",
     "authors": [
         {
@@ -23,12 +21,17 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "aura/installer-default": ">=1.0.0",
-        "aura/framework": ">=1.0.0beta4"
+        "aura/installer-default": "~1.0",
+        "aura/framework": "~1.0"
     },
     "autoload": {
         "psr-0": {
             "Aura\\Framework_Demo": "src/"
         }
-    }
+    },
+    "replace": {
+        "aura/demo": "self.version"
+    },
+    "version": "1.0.1",
+    "time": "2015-03-24"
 }
